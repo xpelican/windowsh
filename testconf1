@@ -1,0 +1,2 @@
+smaller dmesg;;731 301;;63 100;;xdotool key ctrl+minus && dmesg --follow
+netstat;;750 564;;973 431;;watch -n 1 'netstat -antup'
