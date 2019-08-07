@@ -23,7 +23,7 @@ You don't need to install anything, just copy the window.sh script to a location
 
 The first time you run the script, it will ask if you want to create a symlink as "windowsh" (which you can do later at your leisure with 'sudo ln -s <PATH TO SCRIPT>/window.sh /usr/local/bin/windowsh')
 
-#### windowsh -c <profile name>
+#### windowsh -c [profile name or path]
 You run windowsh with the -c flag to incur a configuration file. The argument to this -c flag can either be a full path to a config file, or, if the config file exists in the same directory as the script, can be just the filename of the config.
 
 Once you run a config like this, the main window from which you called windowsh will squeeze itself to the upper-left corner of your screen. You can hit [CTRL+C] on this screen at any point to close all terminals this session opened and revert your terminal to its original size.
