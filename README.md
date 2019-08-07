@@ -40,9 +40,9 @@ I think windowsh is pretty much complete in its main functionality, however ther
 
 Updates & fixes that were thought of during coding were noted down within the script near their relevant lines. You can CTRL+F the phrase "# UPDATE:" to find these.
 
-### Here are some of the main things that need some improvement, in order of urgency:
-#### - Currently, windowsh only works with xfce4-terminal. I'd really like to expand this to include any terminal that can work with xdotool.
-#### - Support for multiple screens (This is terribly needed, and I'm working on it, but it's a bit buggy at the moment)
-#### - Better sanitization & checks for variables set by users
-#### - Add a check for conflicting terminal titles
-#### - A security focus with input sanitization could allow us to safely implement running as the superuser, which could let users bypass password entry for commands that require it. Right now, running as superuser is supported but not recommended, as it's possible to feed malicious data in the config files and have the program read that and run it as a superuser.
+Here are some of the main things that need some improvement, in order of urgency:
+###### - Currently, windowsh only works with xfce4-terminal. I'd really like to expand this to include any terminal that can work with xdotool.
+###### - Support for multiple screens (This is terribly needed, and I'm working on it, but it's a bit buggy at the moment)
+###### - Better sanitization & checks for variables set by users
+###### - Add a check for conflicting terminal titles
+###### - A security focus with input sanitization could allow us to safely implement running as the superuser, which could let users bypass password entry for commands that require it. Right now, running as superuser is supported but not recommended, as it's possible to feed malicious data in the config files and have the program read that and run it as a superuser.
